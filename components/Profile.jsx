@@ -6,13 +6,14 @@ export default function Profile() {
     <div className="dark:bg-light-pattern bg-dark-pattern bg-center bg-no-repeat bg-cover dark:shadow-md dark:shadow-zinc-200 w-full xl:h-[430px] rounded-2xl p-6">
       <div className="xl:grid xl:grid-cols-2">
         <div className="xl:max-w-md">
-          <h2 className="text-center xl:text-start text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-semibold">
-            I design products that delight and inspire people.
+          <h2 className="text-center xl:text-start text-3xl lg:text-3xl xl:text-4xl 2xl:text-4xl font-semibold">
+            Innovative front-end developer crafting digital experiences
           </h2>
 
           <p className="text-light-gray text-lg text-center xl:text-start py-8 md:py-10">
-            A Product Designer and Visual Developer in SF. I specialize in UI/UX
-            Design, Responsive Web Design, and Visual Development.
+            I design and build beautiful, responsive websites that delight users
+            by combining my passion for design with my technical expertise in
+            frontend development.
           </p>
 
           <div className="flex justify-center xl:justify-start">
