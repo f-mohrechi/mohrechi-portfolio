@@ -7,13 +7,13 @@ export default function ContactMe() {
         Get In Touch
       </h2>
 
-      <div className="h-full rounded-2xl p-6 bg-box-back">
+      <div className="h-full rounded-2xl p-6 dark:bg-white bg-box-back dark:shadow-md dark:shadow-zinc-200">
         <form action="">
           <div className="sm:flex sm:items-center sm:justify-between w-full">
             <div className="w-full sm:mr-8">
               <label className="">Name</label>
               <input
-                className="mt-2 w-full bg-[#131313] rounded-md text-white px-4 py-2 placeholder:text-light-gray outline-none"
+                className="mt-2 w-full bg-[#131313] dark:bg-light-app rounded-md text-white px-4 py-2 placeholder:text-light-gray outline-none"
                 type="text"
                 placeholder="Enter your name"
               />
@@ -22,7 +22,7 @@ export default function ContactMe() {
             <div className="w-full mt-5 sm:mt-0 sm:ml-8">
               <label>Email</label>
               <input
-                className="mt-2 w-full bg-[#131313] rounded-md text-white px-4 py-2 placeholder:text-light-gray outline-none"
+                className="mt-2 w-full bg-[#131313] dark:bg-light-app rounded-md text-white px-4 py-2 placeholder:text-light-gray outline-none"
                 type="text"
                 placeholder="Enter your email"
               />
@@ -32,7 +32,7 @@ export default function ContactMe() {
           <div className="my-5">
             <label>Subject</label>
             <input
-              className="mt-2 w-full bg-[#131313] rounded-md text-white px-4 py-2 placeholder:text-light-gray outline-none"
+              className="mt-2 w-full bg-[#131313] dark:bg-light-app rounded-md text-white px-4 py-2 placeholder:text-light-gray outline-none"
               type="text"
               placeholder="What is your message subject?"
             />
@@ -41,7 +41,7 @@ export default function ContactMe() {
           <div>
             <label>Message</label>
             <textarea
-              className="mt-2 w-full bg-[#131313] rounded-md text-white px-4 py-2 placeholder:text-light-gray outline-none"
+              className="mt-2 w-full bg-[#131313] dark:bg-light-app rounded-md text-white px-4 py-2 placeholder:text-light-gray outline-none"
               type="text-area"
               placeholder="At least 150 characters"
             ></textarea>

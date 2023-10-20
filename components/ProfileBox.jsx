@@ -54,7 +54,7 @@ export default function ProfileBox() {
 
   return (
     <>
-      <div className="bg-box-back w-full rounded-2xl p-6">
+      <div className="dark:bg-white bg-box-back dark:shadow-md dark:shadow-zinc-200 w-full rounded-2xl p-6">
         <div className="sm:flex sm:justify-between sm:items-start  border-b border-b-light-gray pb-2">
           <div className="flex flex-col items-center mb-5 sm:mb-0 sm:block sm:w-2/5">
             <Image
@@ -64,7 +64,7 @@ export default function ProfileBox() {
               className="rounded-full"
             />
             <h2 className="text-lg font-semibold pt-5 pb-3">Faeze Mohrechi</h2>
-            <p className="bg-dark-orange text-light-orange text-sm px-3 py-1 rounded-lg max-w-max">
+            <p className="bg-dark-orange dark:bg-lighter-orange text-light-orange text-sm px-3 py-1 rounded-lg max-w-max">
               Front-end developer
             </p>
 

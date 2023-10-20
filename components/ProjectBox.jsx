@@ -1,11 +1,11 @@
 import React from "react";
 export default function ProjectBox({ data }) {
   return (
-    <div className="h-full w-full flex flex-col justify-between rounded-2xl bg-box-back shadow-xl shadow-zinc-950 border border-zinc-950">
+    <div className="h-full w-full flex flex-col justify-between rounded-2xl dark:bg-white bg-box-back shadow-xl shadow-zinc-950 border dark:shadow-zinc-300 dark:border-0 border-zinc-950">
       <div className="flex-1">
         <div className="flex justify-center items-center h-56">
           <img
-            className="w-full h-full rounded-tl-2xl rounded-tr-2xl contrast-50 brightness-75 hover:brightness-100 hover:contrast-100"
+            className="w-full h-full rounded-tl-2xl rounded-tr-2xl contrast-50 dark:contrast-75 brightness-75 hover:brightness-100 hover:contrast-100"
             src={data.img ? data.img : "/icons/camera.svg"}
           />
         </div>
@@ -19,7 +19,7 @@ export default function ProjectBox({ data }) {
           <div className="flex items-center flex-wrap py-3">
             {data.techs.map((item, index) => {
               return (
-                <div className="mr-2 my-1 px-2 md:px-3 py-1 rounded-full bg-light-gray text-hero-back font-medium">
+                <div className="mr-2 my-1 px-2 md:px-3 py-1 rounded-full bg-light-gray dark:bg-lighter-orange text-hero-back font-medium">
                   <p>{item}</p>
                 </div>
               );

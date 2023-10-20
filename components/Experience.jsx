@@ -24,7 +24,7 @@ export default function Experience() {
         Experience
       </h2>
 
-      <div className="h-full rounded-2xl px-6 bg-box-back">
+      <div className="h-full rounded-2xl px-6 dark:bg-white bg-box-back dark:shadow-md dark:shadow-zinc-200">
         {exp.map((item, index) => {
           return (
             <div
@@ -37,7 +37,7 @@ export default function Experience() {
                 <p className="text-lg font-semibold pb-2 xl:pb-3">
                   {item.company}
                 </p>
-                <p className="bg-dark-orange text-light-orange text-sm px-3 py-1 rounded-lg max-w-fit">
+                <p className="bg-dark-orange dark:bg-lighter-orange text-light-orange text-sm px-3 py-1 rounded-lg max-w-fit">
                   {item.duration}
                 </p>
               </div>
