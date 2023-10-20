@@ -14,6 +14,13 @@ module.exports = {
         "box-back": "#1c1c1c",
         "hero-back": "#252525",
       },
+      // screens: {
+      //   sm: "576px",
+      //   md: "768px",
+      //   lg: "992px",
+      //   xl: "1024px",
+      //   "2xl": "1280px",
+      // },
     },
   },
   plugins: [],
