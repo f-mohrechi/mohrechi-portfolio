@@ -34,7 +34,7 @@ export default function Profile() {
         </div>
 
         <div className="hidden xl:flex xl:justify-end">
-          <Image src="/images/faeze.jpg" width={250} height={250} />
+          <Image src="/images/hero-dev.svg" width={400} height={400} />
         </div>
       </div>
     </div>
