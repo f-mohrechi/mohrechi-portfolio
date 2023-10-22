@@ -13,7 +13,7 @@ export default function ContactMe() {
       </h2>
 
       <div className="h-full rounded-2xl p-6 dark:bg-white bg-box-back dark:shadow-md dark:shadow-zinc-200 shadow-md shadow-zinc-950">
-        <form action="" onSubmit={handleSubmit}>
+        <form action="">
           <div className="sm:flex sm:items-center sm:justify-between w-full">
             <div className="w-full sm:mr-8">
               <label className="">Name</label>
