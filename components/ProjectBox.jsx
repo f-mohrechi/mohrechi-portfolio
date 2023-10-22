@@ -19,7 +19,7 @@ export default function ProjectBox({ data }) {
           <div className="flex items-center flex-wrap py-3">
             {data.techs.map((item, index) => {
               return (
-                <div className="mr-2 my-1 px-2 md:px-3 py-1 rounded-full bg-light-gray dark:bg-lighter-orange text-hero-back font-medium">
+                <div className="mr-2 my-1 px-2 md:px-3 py-1 rounded-2xl bg-light-gray dark:bg-lighter-orange text-hero-back text-sm font-medium">
                   <p>{item}</p>
                 </div>
               );

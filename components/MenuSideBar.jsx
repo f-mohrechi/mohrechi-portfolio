@@ -11,7 +11,7 @@ export default function MenuSideBar() {
   ]);
 
   return (
-    <div className="light:bg-light-app dark:bg-white bg-box-back h-[95vh] w-full rounded-2xl py-6 p-5 2xl:p-6 sticky top-8 flex flex-col items-center">
+    <div className="light:bg-light-app dark:bg-white bg-box-back h-[95vh] w-full rounded-2xl py-6 p-5 2xl:p-6 sticky top-8 flex flex-col items-center shadow-md shadow-zinc-950">
       <div className="mb-20">
         <ThemeToggle />
       </div>

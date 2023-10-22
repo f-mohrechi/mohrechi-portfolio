@@ -27,7 +27,7 @@ export default function Home() {
             </div>
 
             <div className="col-start-1 lg:col-start-5 xl:col-start-4 col-end-13 xl:col-end-12">
-              <div className="xl:hidden sticky top-8 mb-7 z--10" id="home">
+              <div className="xl:hidden sticky top-8 mb-7 z-10" id="home">
                 <Header />
               </div>
               <div className="pt-8" id="home">

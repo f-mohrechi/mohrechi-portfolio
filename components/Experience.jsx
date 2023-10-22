@@ -24,7 +24,7 @@ export default function Experience() {
         Experience
       </h2>
 
-      <div className="h-full rounded-2xl px-6 dark:bg-white bg-box-back dark:shadow-md dark:shadow-zinc-200">
+      <div className="h-full rounded-2xl px-6 dark:bg-white bg-box-back dark:shadow-md dark:shadow-zinc-200 shadow-md shadow-zinc-950">
         {exp.map((item, index) => {
           return (
             <div

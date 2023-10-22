@@ -54,7 +54,7 @@ export default function ProfileBox() {
 
   return (
     <>
-      <div className="dark:bg-white bg-box-back dark:shadow-md dark:shadow-zinc-200 w-full rounded-2xl p-6">
+      <div className="dark:bg-white bg-box-back dark:shadow-md dark:shadow-zinc-200 w-full rounded-2xl p-6 shadow-md shadow-zinc-950">
         <div className="sm:flex sm:justify-between sm:items-start  border-b border-b-light-gray pb-2">
           <div className="flex flex-col items-center mb-5 sm:mb-0 sm:block sm:w-2/5">
             <Image

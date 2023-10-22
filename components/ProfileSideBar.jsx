@@ -54,7 +54,7 @@ export default function ProfileSideBar() {
 
   return (
     <>
-      <div className="dark:bg-white bg-box-back dark:shadow-md dark:shadow-zinc-200 h-[95vh] w-full rounded-2xl p-6 sticky top-8">
+      <div className="dark:bg-white bg-box-back dark:shadow-md dark:shadow-zinc-200 h-[95vh] w-full rounded-2xl p-6 sticky top-8 shadow-md shadow-zinc-950">
         <div className="flex flex-col items-center">
           <div>
             <Image
