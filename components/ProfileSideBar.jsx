@@ -38,9 +38,8 @@ export default function ProfileSideBar() {
   const [contact, setContact] = useState([
     { title: "Email", contact: "f.mohrechi78@gmail.com" },
     { title: "Phone", contact: "00989057151970" },
-    { title: "Residence", contact: "Iran" },
-    { title: "City", contact: "Tehran" },
-    { title: "Age", contact: "24" },
+    { title: "Location", contact: "Tehran, Iran" },
+    // { title: "Age", contact: "24" },
     { title: "Languages", contact: "English, Persian" },
   ]);
 
@@ -48,7 +47,10 @@ export default function ProfileSideBar() {
     { title: "Languages", subtitles: ["JavaScript", "HTML"] },
     { title: "Frameworks", subtitles: ["React.js", "Next.js"] },
     { title: "State Managment", subtitles: ["Redux", "Context API"] },
-    { title: "Style", subtitles: ["TailwindCSS", "Bootstrap", "MUI"] },
+    {
+      title: "Style",
+      subtitles: ["Styled Component", "TailwindCSS", "Bootstrap", "MUI", "css"],
+    },
     { title: "version control", subtitles: ["Git (github, gitlab)"] },
   ]);
 
@@ -113,7 +115,7 @@ export default function ProfileSideBar() {
                   <p className="font-medium text-sm lg:text-base 2xl:text-base">
                     {skill.title}:
                   </p>
-                  <div className="flex">
+                  <div className="flex flex-wrap">
                     {skill.subtitles.map((item, index) => {
                       return (
                         <p
