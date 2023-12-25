@@ -38,7 +38,7 @@ export default function Projects() {
       name: "Quote Generator",
       company: "Personal Project",
       repoLink: "https://github.com/f-mohrechi/quote-generator",
-      demoLink: "f-mohrechi.github.io/quote-generator/",
+      // demoLink: "f-mohrechi.github.io/quote-generator/",
       techs: ["React.js", "TailwindCSS", "Axios", "Ninjas-API"],
     },
     {
@@ -46,7 +46,7 @@ export default function Projects() {
       name: "Github Users",
       company: "Personal Project",
       repoLink: "https://github.com/f-mohrechi/github-api",
-      demoLink: "f-mohrechi.github.io/github-api/",
+      // demoLink: "f-mohrechi.github.io/github-api/",
       techs: ["React.js", "TailwindCSS", "Axios", "Github-API", "React Query"],
     },
     {
@@ -54,7 +54,7 @@ export default function Projects() {
       name: "Contact Us Form",
       company: "personal Project",
       repoLink: "https://github.com/f-mohrechi/contact-us",
-      demoLink: "f-mohrechi.github.io/contact-us/",
+      // demoLink: "f-mohrechi.github.io/contact-us/",
       techs: ["React.js", "TailwindCSS", "Axios", "Json-Server", "Formik"],
     },
   ]);

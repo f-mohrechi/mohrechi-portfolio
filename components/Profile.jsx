@@ -18,7 +18,10 @@ export default function Profile() {
           </p>
 
           <div className="flex justify-center xl:justify-start">
-            <button class="relative group cursor-pointer text-white text-lg overflow-hidden h-10 w-40 2xl:h-16 2xl:w-64 rounded-full bg-[#323232] dark:bg-[#989898] p-2 flex justify-center items-center font-semibold">
+            <a
+              href="#contact-me"
+              class="relative group cursor-pointer text-white text-lg overflow-hidden h-10 w-40 2xl:h-16 2xl:w-64 rounded-full bg-[#323232] dark:bg-[#989898] p-2 flex justify-center items-center font-semibold"
+            >
               <div class="absolute top-3 right-20 group-hover:top-12 group-hover:-right-12 z-10 w-40 h-40 rounded-full group-hover:scale-150 group-hover:opacity-50 duration-500 dark:bg-[#d6d6d6] bg-[#1d1d1d]"></div>
               <div class="absolute top-3 right-20 group-hover:top-12 group-hover:-right-12 z-10 w-32 h-32 rounded-full group-hover:scale-150 group-hover:opacity-50 duration-500  dark:bg-[#c1c1c1] bg-[#272727]"></div>
               <div class="absolute top-3 right-20 group-hover:top-12 group-hover:-right-12 z-10 w-24 h-24 rounded-full group-hover:scale-150 group-hover:opacity-50 duration-500 dark:bg-[#adadad] bg-[#313131] "></div>
@@ -30,7 +33,7 @@ export default function Profile() {
                   src="/icons/arrow-right.svg"
                 />
               </div>
-            </button>
+            </a>
           </div>
         </div>
 

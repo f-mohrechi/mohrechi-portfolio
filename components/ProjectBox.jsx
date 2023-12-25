@@ -39,13 +39,15 @@ export default function ProjectBox({ data }) {
           </a>
         )}
 
-        <a
-          target="blank"
-          href={data.demoLink}
-          className="max-w-max bg-transparent text-light-orange border border-light-orange font-medium px-3 py-1 rounded-lg w-full hover:bg-dark-orange hover:border-dark-orange mt-3"
-        >
-          Live Demo
-        </a>
+        {data.demoLink && (
+          <a
+            target="blank"
+            href={data.demoLink}
+            className="max-w-max bg-transparent text-light-orange border border-light-orange font-medium px-3 py-1 rounded-lg w-full hover:bg-dark-orange hover:border-dark-orange mt-3"
+          >
+            Live Demo
+          </a>
+        )}
       </div>
     </div>
   );
