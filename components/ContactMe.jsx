@@ -23,7 +23,7 @@ export default function ContactMe() {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
-                className="mt-2 w-full bg-[#131313] dark:bg-light-app rounded-md text-white px-4 py-2 placeholder:text-light-gray outline-none"
+                className="mt-2 w-full bg-[#131313] dark:bg-light-app rounded-md text-white px-4 py-2 placeholder:text-light-gray dark:text-[#131313] outline-none"
                 type="text"
                 placeholder="Enter your name"
               />
@@ -37,7 +37,7 @@ export default function ContactMe() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                className="mt-2 w-full bg-[#131313] dark:bg-light-app rounded-md text-white px-4 py-2 placeholder:text-light-gray outline-none"
+                className="mt-2 w-full bg-[#131313] dark:bg-light-app rounded-md text-white px-4 py-2 placeholder:text-light-gray dark:text-[#131313] outline-none"
                 type="text"
                 placeholder="Enter your email"
               />
@@ -50,7 +50,7 @@ export default function ContactMe() {
               name="subject"
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
-              className="mt-2 w-full bg-[#131313] dark:bg-light-app rounded-md text-white px-4 py-2 placeholder:text-light-gray outline-none"
+              className="mt-2 w-full bg-[#131313] dark:bg-light-app rounded-md text-white px-4 py-2 placeholder:text-light-gray dark:text-[#131313] outline-none"
               type="text"
               placeholder="What is your message subject?"
             />
@@ -63,7 +63,7 @@ export default function ContactMe() {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               required
-              className="mt-2 w-full bg-[#131313] dark:bg-light-app rounded-md text-white px-4 py-2 placeholder:text-light-gray outline-none"
+              className="mt-2 w-full bg-[#131313] dark:bg-light-app rounded-md text-white px-4 py-2 placeholder:text-light-gray dark:text-[#131313] outline-none"
               type="text-area"
               placeholder="At least 150 characters"
             ></textarea>
