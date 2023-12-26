@@ -37,9 +37,7 @@ export default function ProfileBox() {
 
   const [contact, setContact] = useState([
     { title: "Email", contact: "f.mohrechi78@gmail.com" },
-    { title: "Phone", contact: "00989057151970" },
     { title: "Location", contact: "Tehran, Iran" },
-    // { title: "Age", contact: "24" },
     { title: "Languages", contact: "English, Persian" },
   ]);
 

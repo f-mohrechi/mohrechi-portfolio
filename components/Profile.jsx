@@ -6,8 +6,8 @@ export default function Profile() {
     <div className="dark:bg-light-pattern bg-dark-pattern bg-center bg-no-repeat bg-cover dark:shadow-md dark:shadow-zinc-200 w-full  rounded-2xl p-6 shadow-md shadow-zinc-950">
       <div className="xl:grid xl:grid-cols-2">
         <div className="xl:max-w-md">
-          <h2 className="text-center xl:text-start text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-semibold">
-            Innovative front-end developer crafting digital experiences
+          <h2 className="text-center xl:text-start text-3xl lg:text-3xl xl:text-4xl font-semibold">
+            Innovative Front-End Developer Crafting Digital Experiences
           </h2>
 
           <p className="text-light-gray text-lg text-center xl:text-start py-8 md:py-10">

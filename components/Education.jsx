@@ -23,9 +23,9 @@ export default function Education() {
               Bachelor of Applied Chemistry
             </p>
             <p className="text-light-gray">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
-              dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar
-              quisque sed amet, nulla nunc.
+              Applied chemistry is a branch of chemistry that focuses on
+              applying scientific discoveries made in the field of chemistry to
+              solve real-world problems.
             </p>
           </div>
         </div>
