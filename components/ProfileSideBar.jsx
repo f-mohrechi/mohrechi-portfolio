@@ -140,8 +140,8 @@ export default function ProfileSideBar() {
         <div className="flex justify-center pt-6">
           <button className="bg-light-orange text-box-back text-lg font-semibold px-4 py-2 rounded-lg w-full hover:brightness-75 hover:text-white">
             <a
-              href="/files/Faeze Mohrechi. front-end CV.pdf"
-              download={"MyResume"}
+              href="/files/Faeze-Mohrechi-cv.pdf"
+              download={"Faeze-Mohrechi"}
               target="blank"
             >
               DOWNLOAD MY CV
