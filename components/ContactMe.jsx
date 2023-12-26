@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios";
 
 export default function ContactMe() {
   const [name, setName] = useState("");
@@ -6,32 +7,38 @@ export default function ContactMe() {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
 
-  const axios = require("axios");
-
   const url = "https://contact.f-mohrechi.com/create";
-  const data = {
-    name: "Test",
-    subject: "Hello, World",
-    email: "test@test.com",
-    message: "Helloooooo",
+  const submitForm = async (name, subject, email, message) => {
+    try {
+      const response = await axios.post(
+        url,
+        {
+          name,
+          subject,
+          email,
+          message,
+        },
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+
+      console.log(response.data);
+    } catch (error) {
+      console.error(error);
+    }
   };
 
-  axios
-    .post(url, data, {
-      headers: {
-        "Content-Type": "application/json",
-      },
-      httpsAgent: {
-        rejectUnauthorized: false, // Only use this if you're working with a self-signed certificate
-      },
-    })
-    .then((response) => {
-      console.log(response.headers);
-      console.log(response.data);
-    })
-    .catch((error) => {
-      console.error(error);
-    });
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    await submitForm(name, subject, email, message);
+    setName("");
+    setEmail("");
+    setSubject("");
+    setMessage("");
+  };
 
   return (
     <div className="w-full">
@@ -40,7 +47,7 @@ export default function ContactMe() {
       </h2>
 
       <div className="h-full rounded-2xl p-6 dark:bg-white bg-box-back dark:shadow-md dark:shadow-zinc-200 shadow-md shadow-zinc-950">
-        <form action="">
+        <form action="" onSubmit={handleSubmit}>
           <div className="sm:flex sm:items-center sm:justify-between w-full">
             <div className="w-full sm:mr-8">
               <label className="">Name</label>
@@ -92,17 +99,16 @@ export default function ContactMe() {
               required
               className="mt-2 w-full bg-[#131313] dark:bg-light-app rounded-md text-white px-4 py-2 placeholder:text-light-gray dark:text-[#131313] outline-none"
               type="text-area"
-              placeholder="At least 150 characters"
+              placeholder="How can I help you?"
             ></textarea>
           </div>
+          <button
+            type="submit"
+            className="bg-transparent text-light-orange border border-light-orange font-medium px-3 py-3 mt-5 rounded-lg w-48 hover:bg-dark-orange hover:border-dark-orange"
+          >
+            SEND MESSAGE
+          </button>
         </form>
-
-        <button
-          type="submit"
-          className="bg-transparent text-light-orange border border-light-orange font-medium px-3 py-3 mt-5 rounded-lg w-48 hover:bg-dark-orange hover:border-dark-orange"
-        >
-          SEND MESSAGE
-        </button>
       </div>
     </div>
   );
