@@ -5,6 +5,7 @@ export default function ProjectBox({ data }) {
       <div className="flex-1">
         <div className="flex justify-center items-center h-56">
           <img
+            alt=""
             className="w-full h-full rounded-tl-2xl rounded-tr-2xl contrast-50 dark:contrast-75 brightness-75 hover:brightness-100 hover:contrast-100"
             src={data.img ? data.img : "/icons/camera.svg"}
           />
@@ -19,7 +20,10 @@ export default function ProjectBox({ data }) {
           <div className="flex items-center flex-wrap py-3">
             {data.techs.map((item, index) => {
               return (
-                <div className="mr-2 my-1 px-2 md:px-3 py-1 rounded-2xl bg-light-gray dark:bg-lighter-orange text-hero-back text-sm font-medium">
+                <div
+                  key={index}
+                  className="mr-2 my-1 px-2 md:px-3 py-1 rounded-2xl bg-light-gray dark:bg-lighter-orange text-hero-back text-sm font-medium"
+                >
                   <p>{item}</p>
                 </div>
               );

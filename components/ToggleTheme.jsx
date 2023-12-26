@@ -31,11 +31,11 @@ const ThemeToggle = () => {
   };
 
   return (
-    <label class="relative inline-flex items-center cursor-pointer">
-      <input type="checkbox" value="" class="sr-only peer" />
+    <label className="relative inline-flex items-center cursor-pointer">
+      <input type="checkbox" value="" className="sr-only peer" />
       <div
         onClick={() => handleThemeToggle()}
-        class="group peer ring-0 bg-light-gray rounded-full outline-none duration-300 after:duration-300 w-12 h-6 
+        className="group peer ring-0 bg-light-gray rounded-full outline-none duration-300 after:duration-300 w-12 h-6 
         shadow-md peer-checked:bg-light-app peer-focus:outline-none after:content-['🌑'] after:rounded-full
         after:absolute after:outline-none after:h-16 after:w-16 after:top-[-20px] after:left-[-16px] after:-rotate-180
         after:flex after:justify-center after:items-center peer-checked:after:translate-x-4 peer-checked:after:content-['🌞']

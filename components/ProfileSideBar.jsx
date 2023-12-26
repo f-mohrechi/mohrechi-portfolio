@@ -60,6 +60,7 @@ export default function ProfileSideBar() {
         <div className="flex flex-col items-center">
           <div>
             <Image
+              alt=""
               width={100}
               height={100}
               src="/images/faeze.jpg"
@@ -76,6 +77,7 @@ export default function ProfileSideBar() {
               return (
                 <a href={item.link} key={index} target="blank">
                   <img
+                    alt=""
                     className="w-6 contrast-0 hover:contrast-100 transition-all ease-in-out delay-75"
                     src={item.icon}
                   />

@@ -28,6 +28,7 @@ export default function Experience() {
         {exp.map((item, index) => {
           return (
             <div
+              key={index}
               className={`xl:grid xl:grid-cols-3 py-6 xl:gap-x-8`}
               // className={`grid grid-cols-3 py-6 gap-x-8
               // ${index >= exp.length - 1 ? "border-t border-t-light-gray" : ""}

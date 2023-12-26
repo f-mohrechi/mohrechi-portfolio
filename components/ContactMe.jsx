@@ -6,6 +6,33 @@ export default function ContactMe() {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
 
+  const axios = require("axios");
+
+  const url = "https://contact.f-mohrechi.com/create";
+  const data = {
+    name: "Test",
+    subject: "Hello, World",
+    email: "test@test.com",
+    message: "Helloooooo",
+  };
+
+  axios
+    .post(url, data, {
+      headers: {
+        "Content-Type": "application/json",
+      },
+      httpsAgent: {
+        rejectUnauthorized: false, // Only use this if you're working with a self-signed certificate
+      },
+    })
+    .then((response) => {
+      console.log(response.headers);
+      console.log(response.data);
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+
   return (
     <div className="w-full">
       <h2 className="text-2xl sm:text-4xl font-semibold text-center pb-10">

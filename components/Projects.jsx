@@ -67,7 +67,7 @@ export default function Projects() {
 
       <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 2xl:grid-cols-3 gap-4 md:gap-5 lg:gap-7 w-full h-full">
         {projects.map((item, index) => {
-          return <ProjectBox data={item} />;
+          return <ProjectBox data={item} key={index} />;
         })}
       </div>
 

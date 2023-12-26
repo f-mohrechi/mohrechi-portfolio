@@ -60,6 +60,7 @@ export default function ProfileBox() {
         <div className="sm:flex sm:justify-between sm:items-start  border-b border-b-light-gray pb-2">
           <div className="flex flex-col items-center mb-5 sm:mb-0 sm:block sm:w-2/5">
             <Image
+              alt=""
               width={100}
               height={100}
               src="/images/faeze.jpg"
@@ -87,6 +88,7 @@ export default function ProfileBox() {
                 return (
                   <a href={item.link} key={index} target="blank">
                     <img
+                      alt=""
                       className="w-6 contrast-0 hover:contrast-100 transition-all ease-in-out delay-75"
                       src={item.icon}
                     />

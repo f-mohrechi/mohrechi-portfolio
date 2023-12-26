@@ -20,10 +20,11 @@ export default function MenuSideBar() {
         {sections.map((item, index) => {
           return (
             <a
+              key={index}
               href={item.link}
               className="rounded-lg outline-none contrast-0 dark:hover:contrast-0 hover:contrast-100 2xl:hover:scale-125 transition-all ease-in-out delay-75 h-11 cursor-pointer"
             >
-              <img className="h-6 w-6" src={item.icon} />
+              <img className="h-6 w-6" src={item.icon} alt="" />
             </a>
           );
         })}
