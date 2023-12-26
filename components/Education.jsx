@@ -14,7 +14,7 @@ export default function Education() {
               Islamic Azad University of Karaj
             </p>
             <p className="bg-dark-orange dark:bg-lighter-orange text-light-orange text-sm px-3 py-1 rounded-lg max-w-fit">
-              Jan 1396 - Feb 1400
+              Sep 2017 - Feb 2022
             </p>
           </div>
 

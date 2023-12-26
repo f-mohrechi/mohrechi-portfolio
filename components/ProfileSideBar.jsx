@@ -74,6 +74,17 @@ export default function ProfileSideBar() {
           <p className="bg-dark-orange dark:bg-lighter-orange text-light-orange text-sm px-3 py-1 rounded-2xl">
             Front-end developer
           </p>
+          <div className="flex justify-center pt-4">
+            <button className="bg-light-orange text-box-back font-medium px-3 py-1 rounded-lg w-full hover:brightness-75 transition-all ease-in-out delay-75 hover:text-white">
+              <a
+                href="/files/Faeze-Mohrechi-cv.pdf"
+                download={"Faeze-Mohrechi"}
+                target="blank"
+              >
+                DOWNLOAD MY CV
+              </a>
+            </button>
+          </div>
 
           <div className="flex items-center gap-x-6 py-8 w-full justify-center">
             {social.map((item, index) => {
@@ -107,7 +118,7 @@ export default function ProfileSideBar() {
             })}
           </div>
         </div>
-        <div className="py-4 border-b border-b-light-gray">
+        <div className="py-4">
           <h3 className="text-lg font-semibold">SKILLS</h3>
 
           <div>
@@ -138,18 +149,6 @@ export default function ProfileSideBar() {
               );
             })}
           </div>
-        </div>
-
-        <div className="flex justify-center pt-6">
-          <button className="bg-light-orange text-box-back text-lg font-semibold px-4 py-2 rounded-lg w-full hover:brightness-75 hover:text-white">
-            <a
-              href="/files/Faeze-Mohrechi-cv.pdf"
-              download={"Faeze-Mohrechi"}
-              target="blank"
-            >
-              DOWNLOAD MY CV
-            </a>
-          </button>
         </div>
       </div>
     </>
