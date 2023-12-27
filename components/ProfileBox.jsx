@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-export default function ProfileBox() {
+export default function ProfileBox({ skills, contact }) {
   const [social, setSecial] = useState([
     {
       icon: "/icons/twitter.svg",
@@ -33,23 +33,6 @@ export default function ProfileBox() {
       name: "telegram",
       link: "https://t.me/mahi_mohrechi",
     },
-  ]);
-
-  const [contact, setContact] = useState([
-    { title: "Email", contact: "f.mohrechi78@gmail.com" },
-    { title: "Location", contact: "Tehran, Iran" },
-    { title: "Languages", contact: "English, Persian" },
-  ]);
-
-  const [skills, setSkills] = useState([
-    { title: "Languages", subtitles: ["JavaScript", "HTML"] },
-    { title: "Frameworks", subtitles: ["React.js", "Next.js"] },
-    { title: "State Management", subtitles: ["Redux", "Context API"] },
-    {
-      title: "Style",
-      subtitles: ["TailwindCSS", "Bootstrap", "MUI", "Styled Component", "css"],
-    },
-    { title: "version control", subtitles: ["Git (github, gitlab)"] },
   ]);
 
   return (

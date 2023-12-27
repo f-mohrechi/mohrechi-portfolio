@@ -9,8 +9,26 @@ import ContactMe from "../components/ContactMe";
 import CopyRight from "../components/CopyRight";
 import ProfileBox from "../components/ProfileBox";
 import Header from "../components/Header";
+import { useState } from "react";
 
 export default function Home() {
+  const [contact, setContact] = useState([
+    { title: "Email", contact: "f.mohrechi78@gmail.com" },
+    { title: "Location", contact: "Tehran, Iran" },
+    { title: "Languages", contact: "English, Persian" },
+  ]);
+
+  const [skills, setSkills] = useState([
+    { title: "Languages", subtitles: ["JavaScript"] },
+    { title: "Frameworks", subtitles: ["React.js", "Next.js"] },
+    { title: "State Management", subtitles: ["Redux", "Context API"] },
+    {
+      title: "Style",
+      subtitles: ["TailwindCSS", "Bootstrap", "MUI", "Styled Component", "CSS"],
+    },
+    { title: "Version Control", subtitles: ["Git (github, gitlab)"] },
+  ]);
+
   return (
     <div className="bg-dark-text text-white dark:text-dark-text dark:bg-light-app">
       <div className="px-6 lg:px-16 2xl:px-32">
@@ -23,18 +41,18 @@ export default function Home() {
         <main>
           <div className="lg:grid lg:grid-cols-12 lg:gap-16 xl:gap-10">
             <div className="col-start-1 col-end-4 lg:col-end-5 xl:col-end-4 hidden lg:block">
-              <ProfileSideBar />
+              <ProfileSideBar skills={skills} contact={contact} />
             </div>
 
             <div className="col-start-1 lg:col-start-5 xl:col-start-4 col-end-13 xl:col-end-12">
-              <div className="xl:hidden sticky top-8 mb-7 z-10">
+              <div className="xl:hidden sticky top-8 mb-7 z-50">
                 <Header />
               </div>
               <div className="pt-8" id="home">
                 <Profile />
               </div>
               <div className="pt-7 lg:hidden" id="about">
-                <ProfileBox />
+                <ProfileBox skills={skills} contact={contact} />
               </div>
               <div className="pt-7 xl:pt-16" id="experience">
                 <Experience />
