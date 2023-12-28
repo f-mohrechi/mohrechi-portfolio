@@ -21,6 +21,11 @@ jobs:
     - name: Build Project
       run: npm run build
 
+    - name: Debug SSH Key
+      run: echo "$SSH_PRIVATE_KEY" > ssh_key.pem
+    - name: Display SSH Key
+      run: cat ssh_key.pem
+      
     - name: Deploy to Server
       uses: appleboy/ssh-action@master
       with:
