@@ -49,7 +49,7 @@ export default function ProfileSideBar({ skills, contact }) {
                 className="rounded-full"
               />
             </div>
-            <h2 className="text-lg font-semibold pt-3 pb-2">Faeze Mohrechi</h2>
+            <h2 className="text-lg font-semibold pt-3 pb-4">Faeze Mohrechi</h2>
             <p className="bg-dark-orange dark:bg-lighter-orange text-light-orange text-sm px-3 py-1 rounded-2xl">
               Front-end Developer
             </p>
@@ -65,7 +65,7 @@ export default function ProfileSideBar({ skills, contact }) {
               </button>
             </div>
 
-            <div className="flex items-center gap-x-6 py-6 w-full justify-center">
+            <div className="flex items-center gap-x-6 py-8 w-full justify-center">
               {social.map((item, index) => {
                 return (
                   <a href={item.link} key={index} target="blank">
@@ -84,7 +84,7 @@ export default function ProfileSideBar({ skills, contact }) {
                 return (
                   <div
                     key={index}
-                    className="flex justify-between items-center w-full py-0,5 gap-x-2"
+                    className="flex justify-between items-center w-full py-1 gap-x-2"
                   >
                     <p className="text-sm lg:text-base 2xl:text-base">
                       {item.title}
@@ -105,7 +105,7 @@ export default function ProfileSideBar({ skills, contact }) {
                 return (
                   <div
                     key={index}
-                    className="flex items-center justify-between flex-wrap py-0.5"
+                    className="flex items-center justify-between flex-wrap py-1"
                   >
                     <p className="text-sm lg:text-base 2xl:text-base">
                       {skill.title}:
