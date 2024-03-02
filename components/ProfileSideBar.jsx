@@ -45,11 +45,11 @@ export default function ProfileSideBar({ skills, contact }) {
                 alt=""
                 width={100}
                 height={100}
-                src="/images/faeze.jpg"
+                src="/images/mahi.jpg"
                 className="rounded-full"
               />
             </div>
-            <h2 className="text-lg font-semibold pt-3 pb-4">Faeze Mohrechi</h2>
+            <h2 className="text-lg font-semibold pt-3 pb-4">Mahi Mohrechi</h2>
             <p className="bg-dark-orange dark:bg-lighter-orange text-light-orange text-sm px-3 py-1 rounded-2xl">
               Front-end Developer
             </p>

@@ -44,10 +44,10 @@ export default function ProfileBox({ skills, contact }) {
               alt=""
               width={100}
               height={100}
-              src="/images/faeze.jpg"
+              src="/images/mahi.jpg"
               className="rounded-full"
             />
-            <h2 className="text-lg font-semibold pt-5 pb-3">Faeze Mohrechi</h2>
+            <h2 className="text-lg font-semibold pt-5 pb-3">Mahi Mohrechi</h2>
             <p className="bg-dark-orange dark:bg-lighter-orange text-light-orange text-sm px-3 py-1 rounded-lg max-w-max">
               Front-end developer
             </p>

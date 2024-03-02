@@ -24,13 +24,13 @@ export default function Projects() {
       demoLink: "https://yaadin.com",
       techs: ["React.js", "Next.js", "Redux", "Bootstrap"],
     },
-    {
-      img: "/images/sensolist.png",
-      name: "SenSolist",
-      company: "Elitive",
-      demoLink: "https://sensolist.com",
-      techs: ["React.js", "Next.js", "Bootstrap"],
-    },
+    // {
+    //   img: "/images/sensolist.png",
+    //   name: "SenSolist",
+    //   company: "Elitive",
+    //   demoLink: "https://sensolist.com",
+    //   techs: ["React.js", "Next.js", "Bootstrap"],
+    // },
     {
       img: "/images/signup.png",
       name: "React.js Authentication",
