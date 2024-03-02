@@ -7,7 +7,7 @@ export default function Projects() {
       img: "/images/zood-food.jpg",
       name: "Zood Food",
       company: "personal Project",
-      // demoLink: "",
+      demoLink: "https://zood-food.liara.run/",
       repoLink: "https://github.com/f-mohrechi/order-food",
       techs: [
         "React.js",
