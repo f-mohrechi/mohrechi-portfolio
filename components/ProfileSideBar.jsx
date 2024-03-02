@@ -57,7 +57,7 @@ export default function ProfileSideBar({ skills, contact }) {
               <button className="bg-light-orange text-box-back font-medium px-3 py-1 rounded-lg w-full hover:brightness-75 transition-all ease-in-out delay-75 hover:text-white">
                 <a
                   href="/files/Mahi Mohrechi - Frontend Developer.pdf"
-                  download={"Faeze-Mohrechi"}
+                  download={"Mahi-Mohrechi"}
                   target="blank"
                 >
                   DOWNLOAD MY CV

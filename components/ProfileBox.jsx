@@ -55,7 +55,7 @@ export default function ProfileBox({ skills, contact }) {
             <button className="mt-3 bg-light-orange text-box-back text-sm font-medium px-3 py-1 rounded-lg max-w-max w-full hover:brightness-75 hover:text-white">
               <a
                 href="/files/Mahi Mohrechi - Frontend Developer.pdf"
-                download={"Faeze-Mohrechi"}
+                download={"Mahi-Mohrechi"}
                 target="blank"
               >
                 DOWNLOAD MY CV
