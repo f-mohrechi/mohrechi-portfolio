@@ -4,6 +4,20 @@ import ProjectBox from "./ProjectBox";
 export default function Projects() {
   const [projects, setProjects] = useState([
     {
+      img: "/images/zood-food.jpg",
+      name: "Zood Food",
+      company: "personal Project",
+      // demoLink: "",
+      repoLink: "https://github.com/f-mohrechi/order-food",
+      techs: [
+        "React.js",
+        "Redux",
+        "Context API",
+        "TailwindCSS",
+        "React Toastify",
+      ],
+    },
+    {
       img: "/images/yaadin.png",
       name: "Yaadin",
       company: "Elitive",

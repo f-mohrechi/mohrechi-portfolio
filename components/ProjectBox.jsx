@@ -3,10 +3,10 @@ export default function ProjectBox({ data }) {
   return (
     <div className="h-full w-full flex flex-col justify-between rounded-2xl dark:bg-white bg-box-back shadow-xl shadow-zinc-950 border dark:shadow-zinc-300 dark:border-0 border-zinc-950">
       <div className="flex-1">
-        <div className="flex justify-center items-center h-56">
+        <div className="flex justify-center items-center h-56 w-full">
           <img
             alt=""
-            className="w-full h-full rounded-tl-2xl rounded-tr-2xl contrast-50 dark:contrast-75 brightness-75 hover:brightness-100 hover:contrast-100"
+            className="w-full object-cover h-full rounded-tl-2xl rounded-tr-2xl contrast-50 dark:contrast-75 brightness-75 hover:brightness-100 hover:contrast-100"
             src={data.img ? data.img : "/icons/camera.svg"}
           />
         </div>
