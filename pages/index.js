@@ -13,7 +13,7 @@ import { useState } from "react";
 
 export default function Home() {
   const [contact, setContact] = useState([
-    { title: "Email", contact: "f.mohrechi78@gmail.com" },
+    // { title: "Email", contact: "f.mohrechi78@gmail.com" },
     { title: "Location", contact: "Tehran, Iran" },
     { title: "Languages", contact: "English, Persian" },
   ]);
@@ -63,9 +63,9 @@ export default function Home() {
               <div className="pt-7 xl:pt-16" id="projects">
                 <Projects />
               </div>
-              <div className="pt-7 xl:pt-16" id="contact-me">
+              {/* <div className="pt-7 xl:pt-16" id="contact-me">
                 <ContactMe />
-              </div>
+              </div> */}
 
               <div className="pt-10 pb-3">
                 <CopyRight />

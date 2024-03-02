@@ -80,6 +80,16 @@ export default function ProfileSideBar({ skills, contact }) {
             </div>
 
             <div className="w-full pb-4 border-b border-b-light-gray">
+              <div className="flex justify-between items-center w-full py-1 gap-x-2">
+                <p className="text-sm lg:text-base 2xl:text-base">Email</p>
+                <a
+                  href={"https://f.mohrechi@gmail.com"}
+                  target="blank"
+                  className="text-light-gray text-sm cursor-pointer"
+                >
+                  f.mohrechi78.@gmail.com
+                </a>
+              </div>
               {contact.map((item, index) => {
                 return (
                   <div
@@ -89,7 +99,11 @@ export default function ProfileSideBar({ skills, contact }) {
                     <p className="text-sm lg:text-base 2xl:text-base">
                       {item.title}
                     </p>
-                    <a href={item.link} className="text-light-gray text-sm">
+                    <a
+                      href={item.link}
+                      target="blank"
+                      className="text-light-gray text-sm cursor-pointer"
+                    >
                       {item.contact}
                     </a>
                   </div>

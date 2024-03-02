@@ -1,44 +1,45 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Link from "next/link";
 
 export default function ContactMe() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [subject, setSubject] = useState("");
+  // const [message, setMessage] = useState("");
 
-  const url = "https://contact.f-mohrechi.com/create";
-  const submitForm = async (name, subject, email, message) => {
-    try {
-      const response = await axios.post(
-        url,
-        {
-          name,
-          subject,
-          email,
-          message,
-        },
-        {
-          headers: {
-            "Content-Type": "application/json",
-          },
-        }
-      );
+  // const url = "https://contact.f-mohrechi.com/create";
+  // const submitForm = async (name, subject, email, message) => {
+  //   try {
+  //     const response = await axios.post(
+  //       url,
+  //       {
+  //         name,
+  //         subject,
+  //         email,
+  //         message,
+  //       },
+  //       {
+  //         headers: {
+  //           "Content-Type": "application/json",
+  //         },
+  //       }
+  //     );
 
-      // console.log(response.data);
-    } catch (error) {
-      console.error(error);
-    }
-  };
+  //     // console.log(response.data);
+  //   } catch (error) {
+  //     console.error(error);
+  //   }
+  // };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    await submitForm(name, subject, email, message);
-    setName("");
-    setEmail("");
-    setSubject("");
-    setMessage("");
-  };
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   await submitForm(name, subject, email, message);
+  //   setName("");
+  //   setEmail("");
+  //   setSubject("");
+  //   setMessage("");
+  // };
 
   return (
     <div className="w-full">
@@ -47,7 +48,7 @@ export default function ContactMe() {
       </h2>
 
       <div className="h-full rounded-2xl p-6 dark:bg-white bg-box-back dark:shadow-md dark:shadow-zinc-200 shadow-md shadow-zinc-950">
-        <form action="" onSubmit={handleSubmit}>
+        {/* <form action="" onSubmit={handleSubmit}>
           <div className="sm:flex sm:items-center sm:justify-between w-full">
             <div className="w-full sm:mr-8">
               <label className="">Name</label>
@@ -108,7 +109,7 @@ export default function ContactMe() {
           >
             SEND MESSAGE
           </button>
-        </form>
+        </form> */}
       </div>
     </div>
   );
