@@ -83,7 +83,7 @@ export default function ProfileSideBar({ skills, contact }) {
               <div className="flex justify-between items-center w-full py-1 gap-x-2">
                 <p className="text-sm lg:text-base 2xl:text-base">Email</p>
                 <a
-                  href={"https://f.mohrechi@gmail.com"}
+                  href={"mailto:f.mohrechi@gmail.com"}
                   target="blank"
                   className="text-light-gray text-sm cursor-pointer"
                 >

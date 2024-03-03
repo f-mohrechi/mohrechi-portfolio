@@ -13,9 +13,16 @@ export default function Projects() {
         "React.js",
         "Redux",
         "Context API",
-        "TailwindCSS",
+        "Tailwind CSS",
         "React Toastify",
       ],
+    },
+    {
+      img: "/images/vecentor.jpg",
+      name: "Vecentor",
+      company: "Mann-E",
+      demoLink: "https://vecentor.com",
+      techs: ["Next.js", "Redux", "React Query", "Axios", "Tailwind CSS"],
     },
     {
       img: "/images/yaadin.png",
@@ -37,7 +44,7 @@ export default function Projects() {
       company: "personal Project",
       repoLink: "https://github.com/f-mohrechi/authentication",
       demoLink: "https://f-mohrechi.github.io/authentication/",
-      techs: ["React.js", "TailwindCSS", "Axios", "Json-Server", "Formik"],
+      techs: ["React.js", "Tailwind CSS", "Axios", "Json-Server", "Formik"],
     },
     {
       img: "/images/todolist.png",
@@ -45,7 +52,7 @@ export default function Projects() {
       company: "Personal Project",
       repoLink: "https://github.com/f-mohrechi/todo-list",
       demoLink: "https://f-mohrechi.github.io/todo-list/",
-      techs: ["React.js", "Redux", "TailwindCSS"],
+      techs: ["React.js", "Redux", "Tailwind CSS"],
     },
     {
       img: "/images/quote.png",
@@ -53,7 +60,7 @@ export default function Projects() {
       company: "Personal Project",
       repoLink: "https://github.com/f-mohrechi/quote-generator",
       // demoLink: "f-mohrechi.github.io/quote-generator/",
-      techs: ["React.js", "TailwindCSS", "Axios", "Ninjas-API"],
+      techs: ["React.js", "Tailwind CSS", "Axios", "Ninjas-API"],
     },
     {
       img: "/images/git.png",
@@ -61,7 +68,7 @@ export default function Projects() {
       company: "Personal Project",
       repoLink: "https://github.com/f-mohrechi/github-api",
       // demoLink: "f-mohrechi.github.io/github-api/",
-      techs: ["React.js", "TailwindCSS", "Axios", "Github-API", "React Query"],
+      techs: ["React.js", "Tailwind CSS", "Axios", "Github-API", "React Query"],
     },
     {
       img: "/images/contact.png",
@@ -69,7 +76,7 @@ export default function Projects() {
       company: "personal Project",
       repoLink: "https://github.com/f-mohrechi/contact-us",
       // demoLink: "f-mohrechi.github.io/contact-us/",
-      techs: ["React.js", "TailwindCSS", "Axios", "Json-Server", "Formik"],
+      techs: ["React.js", "Tailwind CSS", "Axios", "Json-Server", "Formik"],
     },
   ]);
 

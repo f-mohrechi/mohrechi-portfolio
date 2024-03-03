@@ -9,7 +9,7 @@ export default function MenuSideBar() {
     { icon: "/icons/company.svg", title: "experience", link: "#experience" },
     { icon: "/icons/book.svg", title: "education", link: "#education" },
     { icon: "/icons/code.svg", title: "projects", link: "#projects" },
-    { icon: "/icons/call.svg", title: "contact", link: "#contact-me" },
+    // { icon: "/icons/call.svg", title: "contact", link: "#contact-me" },
   ]);
 
   const activation = (index) => {

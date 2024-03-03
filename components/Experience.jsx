@@ -4,18 +4,18 @@ export default function Experience() {
   const [exp, setExp] = useState([
     {
       company: "Elitive",
-      role: "Junior Front-End Developer",
+      role: "Front-End Developer",
       duration: "October 2023 - May 2023",
       explanation:
         "In my role as part of a team, I was responsible for implementing the user interface (UI). During my time in this company, I worked on a variety of projects, including shopping websites, admin panels, landing pages, and academic websites.",
     },
-    // {
-    //   company: "",
-    //   role: "Junior Front-End Developer",
-    //   duration: "Jan 1396 - Feb 1400",
-    //   explanation:
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc.",
-    // },
+    {
+      company: "Mann-E",
+      role: "Front-End Developer",
+      duration: "May 2023 - Feb 2024",
+      explanation:
+        "Built the frontend portion of vecentor.com. A generative AI that converts text to vector (SVG).",
+    },
   ]);
 
   return (
@@ -29,10 +29,10 @@ export default function Experience() {
           return (
             <div
               key={index}
-              className={`xl:grid xl:grid-cols-3 py-6 xl:gap-x-8`}
-              // className={`grid grid-cols-3 py-6 gap-x-8
-              // ${index >= exp.length - 1 ? "border-t border-t-light-gray" : ""}
-              // `}
+              // className={`xl:grid xl:grid-cols-3 py-6 xl:gap-x-8`}
+              className={`grid grid-cols-3 py-6 gap-x-8
+              ${index >= exp.length - 1 ? "border-t border-t-light-gray" : ""}
+              `}
             >
               <div className="border-l-2 border-l-light-gray pl-4 xl:border-l-0 xl:pl-0 mb-6 xl:mb-0">
                 <p className="text-lg font-semibold pb-2 xl:pb-3">

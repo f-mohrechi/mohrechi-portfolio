@@ -19,7 +19,7 @@ export default function Profile() {
 
           <div className="flex justify-center xl:justify-start">
             <a
-              href="https://f.mohrechi@gmail.com"
+              href="mailto:f.mohrechi@gmail.com"
               className="relative group cursor-pointer text-white text-lg overflow-hidden h-10 w-40 2xl:h-16 2xl:w-64 rounded-full bg-[#323232] dark:bg-[#989898] p-2 flex justify-center items-center font-semibold"
             >
               <div className="absolute top-3 right-20 group-hover:top-12 group-hover:-right-12 z-10 w-40 h-40 rounded-full group-hover:scale-150 group-hover:opacity-50 duration-500 dark:bg-[#d6d6d6] bg-[#1d1d1d]"></div>
