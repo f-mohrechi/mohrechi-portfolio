@@ -79,6 +79,16 @@ export default function ProfileBox({ skills, contact }) {
             </div>
 
             <div className="w-full">
+              <div className="flex justify-between items-center w-full py-1 gap-x-2">
+                <p className="font-medium text-sm">Email</p>
+                <a
+                  href={"mailto:f.mohrechi@gmail.com"}
+                  target="blank"
+                  className="text-light-gray text-sm"
+                >
+                  f.mohrechi78.@gmail.com
+                </a>
+              </div>
               {contact.map((item, index) => {
                 return (
                   <div
